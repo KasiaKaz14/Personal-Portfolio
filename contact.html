@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">O mnie</a></li>
+          <li><a href="./skills.html">Umiejętności</a></li>
+          <li><a href="./projects.html">Projekty</a></li>
+          <li><a href="./interests.html">Zainteresowania</a></li>
+          <li class="active"><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <ul>
+        <li><a href="#facebook">Facebook</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="mailto: kasiakazmierczak99@gmail.com">Mail</a></li>
+        <li><a href="phoneto: +48882423855">Telefon</a></li>
+      </ul>
+    </section>
+    <section>
+      <p>Możesz również wysłać wiadomość bezpośrednio z mojej strony:</p>
+      <form id="messageForm">
+        <label for="name">Twoje imię:</label>
+        <input type="text" placeholder="Wpisz swoje imię" />
+        <label for="message">Wiadomość:</label>
+        <textarea
+          id="message"
+          class="message-input"
+          maxlength="200"
+          placeholder="Napisz swoją wiadomość..."
+        ></textarea>
+        <div class="char-count" id="charCount">0 / 200</div>
+        <button type="submit">Wyślij</button>
+      </form>
+    </section>
+  </body>
+</html>

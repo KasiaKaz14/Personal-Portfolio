@@ -1,0 +1,45 @@
+/* Resetowanie stylów domyślnych */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3f3b3b; /* Kolor tła nagłówka */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Cień pod nagłówkiem */
+}
+
+nav {
+  width: 100%; /* Szerokość nawigacji */
+}
+
+nav ul {
+  display: flex; /* Ustawienie elementów obok siebie */
+  justify-content: space-around; /* Równomierne rozmieszczenie */
+  list-style: none; /* Usunięcie punktów z listy */
+  padding: 10px 0; /* Odstęp w pionie */
+  border-bottom: 2px solid #ccc; /* Dolna ramka pod zakładkami */
+}
+
+nav li {
+  margin: 0 15px; /* Odstęp między zakładkami */
+}
+
+nav a {
+  text-decoration: none; /* Usunięcie podkreślenia z linków */
+  color: #e5dddd; /* Kolor tekstu */
+  font-weight: bold; /* Pogrubienie tekstu */
+}
+
+nav a:hover {
+  color: #007bff; /* Kolor tekstu po najechaniu */
+  border-bottom: 2px solid #007bff; /* Kolor dolnej ramki po najechaniu */
+  border-radius: 4px; /* Zaokrąglenie rogów tła */
+}
+
+nav li.active a {
+  color: #007bff; /* Kolor tekstu aktywnej zakładki */
+  border-bottom: 2px solid #007bff; /* Ramka dolna dla aktywnej zakładki */
+  border-radius: 4px; /* Zaokrąglenie rogów tła */
+}
