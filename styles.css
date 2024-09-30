@@ -129,11 +129,69 @@ nav li.active a {
 }
 
 #skills {
-  text-decoration: dotted;
   list-style-type: none;
   font-size: 20px;
   color: #8d2424;
   cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 950px;
+}
+
+/* Stylowanie dla listy umiejętności */
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skill {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: relative;
+  width: 250px;
+  cursor: pointer;
+}
+
+.skill-name {
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+}
+
+/* Ukrycie opisu początkowo */
+.skill-description {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  padding: 0;
+  background-color: #f0f0f0;
+  margin-top: 5px;
+  border-top: 1px solid #ccc;
+}
+
+/* Efekt rozwijania po najechaniu na nazwę umiejętności */
+.skill:hover .skill-description {
+  max-height: 100px; /* Możesz dostosować maksymalną wysokość */
+  padding: 10px;
+}
+
+/* Styl dla całej ramki */
+.skill {
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.skill:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Stylowanie tekstu definicji */
+.skill-description {
+  font-size: 14px;
+  color: #333;
 }
 
 .projects-title {
@@ -163,4 +221,37 @@ nav li.active a {
   padding: 15px;
   gap: 9px;
   width: 200px;
+}
+
+.interests-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 5px;
+  width: 800px;
+}
+
+.interests-title {
+  display: flex;
+  justify-content: center;
+}
+
+.interests-description-title {
+  display: flex;
+  justify-content: center;
+}
+
+.interests-bubble {
+  background-color: #6b2323; /* Kolor tła chmurki */
+  border-radius: 15px; /* Zaokrąglenie krawędzi */
+  padding: 10px; /* Odstępy wewnętrzne */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Cień dla efektu uniesienia */
+  position: relative; /* Umożliwia umiejscowienie pseudoelementów */
+  width: 300px;
+}
+
+.interests-bubble:hover {
+  transform: translateY(-5px);
 }
