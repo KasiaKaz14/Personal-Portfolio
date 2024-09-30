@@ -1,4 +1,5 @@
 const changeTheme = document.querySelector(".changeThemeButton");
+const showDefinition = document.querySelectorAll(".skill-name");
 
 const setTheme = (theme) => {
   if (theme === "white") {
@@ -28,4 +29,26 @@ changeTheme.addEventListener("click", () => {
   const newTheme = currentTheme === "black" ? "white" : "black";
   localStorage.setItem("theme", newTheme);
   setTheme(newTheme);
+});
+
+// document.querySelectorAll(".skill-name").forEach((skill) => {
+//   skill.addEventListener("click", () => {
+//     const description = skill.nextElementSibling; // Następny element to opis
+//     if (description.style.display === "none") {
+//       description.style.display = "block"; // Pokaż definicję
+//     } else {
+//       description.style.display = "none"; // Ukryj definicję
+//     }
+//   });
+// });
+
+showDefinition.forEach((skill) => {
+  skill.addEventListener("click", () => {
+    const definition = skill.nextElementSibling;
+    if (definition.style.display === "none") {
+      definition.style.display = "block";
+    } else {
+      definition.style.display = "none";
+    }
+  });
 });

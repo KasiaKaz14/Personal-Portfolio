@@ -86,3 +86,51 @@ nav li.active a {
   margin-bottom: 10px;
   width: 450px;
 }
+
+.home-link {
+  color: #007bff;
+}
+
+.skills-description {
+  display: flex;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 450px;
+}
+
+.skill-description {
+  color: white;
+  font-size: 15px;
+}
+
+.skill-description:focus,
+.skill-description:hover {
+  cursor: pointer;
+  border: #ccc;
+}
+
+.skills-title {
+  text-decoration: underline;
+}
+
+.skills-description-title {
+  width: 900px;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+#skills {
+  text-decoration: dotted;
+  list-style-type: none;
+  font-size: 20px;
+  color: #8d2424;
+  cursor: pointer;
+}
