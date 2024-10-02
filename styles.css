@@ -262,14 +262,20 @@ nav li.active a {
 
 .contact-list {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
+  flex-direction: column;
   color: aqua;
   gap: 15px;
   list-style-type: none;
   text-decoration: none;
   cursor: pointer;
   margin-left: 30px;
+}
+
+.contact-links-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
 }
 
 .contact-form {
