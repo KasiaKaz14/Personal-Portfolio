@@ -1,5 +1,6 @@
 const changeTheme = document.querySelector(".changeThemeButton");
 const showDefinition = document.querySelectorAll(".skill-name");
+const backToTopButton = document.querySelector("#backToTop");
 
 const setTheme = (theme) => {
   if (theme === "white") {
@@ -50,5 +51,24 @@ showDefinition.forEach((skill) => {
     } else {
       definition.style.display = "none";
     }
+  });
+});
+
+window.onscroll = function () {
+  toggleBackToTopButton();
+};
+
+function toggleBackToTopButton() {
+  if (window.scrollY > 5) {
+    backToTopButton.classList.add("show");
+  } else {
+    backToTopButton.classList.remove("show");
+  }
+}
+
+backToTopButton.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
   });
 });

@@ -4,6 +4,15 @@ ul {
   padding: 0;
 }
 
+.parallax {
+  background-image: url("https://pixabay.com/pl/photos/water-bobbles-b%C4%85ble-b%C4%85belki-woda-4309678/");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header {
   background-color: #1d1c2c; /* Kolor tła nagłówka */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Cień pod nagłówkiem */
@@ -350,6 +359,11 @@ nav li.active a {
   }
 } */
 
+.contact-section {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
 .contact-title {
   margin-left: 25px;
 }
@@ -427,4 +441,34 @@ nav li.active a {
 .contact-button:focus {
   cursor: pointer;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Stylizacja strzałki powrotu do góry */
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 40px;
+  background-color: #d43f3f;
+  color: rgb(245, 243, 243);
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0; /* Zmieniamy z display: none na opacity: 0 */
+  visibility: hidden; /* Ukrywamy element */
+  z-index: 1000;
+  transition: opacity 0.3s ease, visibility 0.3s ease,
+    background-color 0.3s ease;
+}
+
+/* Efekt hover dla strzałki */
+#backToTop:hover {
+  background-color: #b33232;
+}
+
+/* Animacja wchodzenia strzałki */
+.show {
+  opacity: 1; /* Umożliwiamy pełną widoczność */
+  visibility: visible; /* Umożliwiamy widoczność */
 }
