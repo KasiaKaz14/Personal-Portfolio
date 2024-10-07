@@ -4,6 +4,15 @@ ul {
   padding: 0;
 }
 
+:root {
+  --icon-color: black;
+}
+
+svg {
+  fill: var(--icon-color);
+  overflow: visible;
+}
+
 .parallax {
   background-image: url("https://pixabay.com/pl/photos/water-bobbles-b%C4%85ble-b%C4%85belki-woda-4309678/");
   min-height: 500px;

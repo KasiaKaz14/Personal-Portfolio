@@ -6,12 +6,14 @@ const setTheme = (theme) => {
   if (theme === "white") {
     document.body.style.backgroundColor = "black";
     document.body.style.color = "white";
+    document.documentElement.style.setProperty("--icon-color", "white");
     changeTheme.style.backgroundColor = "white";
     changeTheme.style.color = "black";
     changeTheme.textContent = "Zmień motyw: jasny";
   } else {
     document.body.style.backgroundColor = "white";
     document.body.style.color = "black";
+    document.documentElement.style.setProperty("--icon-color", "black");
     changeTheme.style.backgroundColor = "dimgray";
     changeTheme.style.color = "white";
     changeTheme.textContent = "Zmień motyw: ciemny";
@@ -26,7 +28,7 @@ if (saveTheme) {
 }
 
 changeTheme.addEventListener("click", () => {
-  const currentTheme = localStorage.getItem("theme" || "white");
+  const currentTheme = localStorage.getItem("theme") || "white";
   const newTheme = currentTheme === "black" ? "white" : "black";
   localStorage.setItem("theme", newTheme);
   setTheme(newTheme);
