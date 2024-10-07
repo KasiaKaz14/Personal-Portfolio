@@ -13,6 +13,10 @@ svg {
   overflow: visible;
 }
 
+.icon-svg {
+  fill: white;
+}
+
 .parallax {
   background-image: url("https://pixabay.com/pl/photos/water-bobbles-b%C4%85ble-b%C4%85belki-woda-4309678/");
   min-height: 500px;
