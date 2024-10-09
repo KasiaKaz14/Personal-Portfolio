@@ -53,13 +53,17 @@ nav a {
   font-weight: bold; /* Pogrubienie tekstu */
 }
 
-nav a:hover {
-  color: #007bff; /* Kolor tekstu po najechaniu */
-  border-bottom: 2px solid #007bff; /* Kolor dolnej ramki po najechaniu */
-  border-radius: 4px; /* Zaokrąglenie rogów tła */
+/* nav a:hover {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  border-radius: 4px;
+} */
+
+nav ul li.active .icon-svg {
+  fill: #007bff; /* Kolor aktywnej ikony */
 }
 
-nav li.active a {
+nav ul li.active a {
   color: #007bff; /* Kolor tekstu aktywnej zakładki */
   border-bottom: 2px solid #007bff; /* Ramka dolna dla aktywnej zakładki */
   border-radius: 4px; /* Zaokrąglenie rogów tła */
@@ -384,13 +388,20 @@ nav li.active a {
 .contact-list {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   color: aqua;
   gap: 15px;
   list-style-type: none;
   text-decoration: none;
   cursor: pointer;
   margin-left: 30px;
+  width: 350px;
+  height: 45px;
+  border: 1px solid #0fb443;
+  border-radius: 5px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
 }
 
 .contact-links-icon {
@@ -413,7 +424,7 @@ nav li.active a {
   margin-bottom: 20px;
   border: 1px solid #0fb443;
   border-radius: 5px;
-  box-shadow: 0 0 15px 5px, rgba(11, 8, 8, 0.3);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
 }
 
 .contact-form-title {
@@ -454,6 +465,14 @@ nav li.active a {
 .contact-button:focus {
   cursor: pointer;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
+
+.contact-info {
+  color: red;
+}
+
+.contact-info-ad {
+  color: #666;
 }
 
 /* Stylizacja strzałki powrotu do góry */
