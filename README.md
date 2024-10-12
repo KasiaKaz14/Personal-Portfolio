@@ -1,6 +1,6 @@
 # My Personal Website 🚀
 
-Welcome to my personal website! This project showcases my skills, interests, and portfolio in a clean and user-friendly format. It's built with **HTML**, **CSS**, and **JavaScript** and contains multiple sections to highlight my professional journey and passion projects.
+Welcome to my personal website! This project showcases my skills, interests, and portfolio in a clean and user-friendly format. It's built with **HTML**, **CSS**, and **JavaScript** and contains multiple sections to highlight my professional journey and passion projects. Currently the website is supported in Polish. In the future I will add the English language, and the site will be updated on a regular basis.
 
 ## 🌟 Features
 
