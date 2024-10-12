@@ -14,7 +14,7 @@ Welcome to my personal website! This project showcases my skills, interests, and
 
 - **HTML**: For the structure of the website.
 - **CSS**: For styling and making the site responsive and visually appealing.
-- **JavaScript**: To add interactivity, like form validation and dynamic language switching.
+- **JavaScript**: To add interactivity, like form validation and dynamic theme switching.
 
 ## 💡 Key Features
 
