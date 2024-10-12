@@ -50,8 +50,10 @@ Feel free to reach out to me via [email](mailto:kasiakazmierczak99@gmail.com) or
 ### 💻 Future Improvements
 
 - Add more detailed descriptions to the projects section.
-- Integrate a blog section where I can share my thoughts on web development, coding tips, and experiences.
+- Integrate a blog section where I can share my thoughts on web development, coding tips, and experiences. (It's 50/50)
 - Implement an animation to improve user experience.
+- Add the English language
+- Add the Responsive Design
 
 ## 🙌 Contributing
 
