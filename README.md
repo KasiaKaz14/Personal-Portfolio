@@ -33,7 +33,7 @@ Welcome to my personal website! This project showcases my skills, interests, and
 
 2. Navigate to the project folder:
    ```bash
-   cd personal-website
+   cd personal-portfolio
    ```
 3. Open `index.html` in your browser to explore the website.
 
