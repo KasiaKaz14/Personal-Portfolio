@@ -393,7 +393,9 @@ nav ul li.active a {
 }
 
 .contact-title {
-  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-list {
