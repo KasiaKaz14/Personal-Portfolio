@@ -39,7 +39,7 @@ Welcome to my personal website! This project showcases my skills, interests, and
 
 ## 🌐 Demo
 
-Check out the live version [here]kasiakaz14.github.io/Personal-Portfolio/!
+Check out the live version [here](kasiakaz14.github.io/Personal-Portfolio/)!
 
 ## 📧 Contact
 
