@@ -18,7 +18,7 @@ Welcome to my personal website! This project showcases my skills, interests, and
 
 ## 💡 Key Features
 
-- **Dynamic Language Switcher**: Allows users to switch between Polish and English seamlessly.
+- **Dynamic Theme Switcher**: Allows users to switch between Polish and English seamlessly. (It will appear in the future)
 - **Contact Form**: Users can send me messages directly through the website.
 - **Responsive Design**: At the moment there is a desktop version, but I am going to add a version for tablet and mobile. Be patient!
 
