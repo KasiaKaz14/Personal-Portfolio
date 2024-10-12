@@ -45,16 +45,16 @@ changeTheme.addEventListener("click", () => {
 //   });
 // });
 
-showDefinition.forEach((skill) => {
-  skill.addEventListener("click", () => {
-    const definition = skill.nextElementSibling;
-    if (definition.style.display === "none") {
-      definition.style.display = "block";
-    } else {
-      definition.style.display = "none";
-    }
-  });
-});
+// showDefinition.forEach((skill) => {
+//   skill.addEventListener("click", () => {
+//     const definition = skill.nextElementSibling;
+//     if (definition.style.display === "none") {
+//       definition.style.display = "block";
+//     } else {
+//       definition.style.display = "none";
+//     }
+//   });
+// });
 
 window.onscroll = function () {
   if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {

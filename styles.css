@@ -350,6 +350,15 @@ nav ul li.active a {
   cursor: pointer;
 }
 
+.interests-bubble {
+  /* width: 1150px; */
+  border: 1px solid #bebcbc;
+  border-radius: 15px;
+  background-color: #e1dfdf;
+  padding: 35px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
 /* Efekt po najechaniu na nagłówki */
 .interests-container h4:hover {
   color: #d43f3f;
@@ -419,7 +428,7 @@ nav ul li.active a {
   margin: 0 auto;
   gap: 15px;
   width: 400px;
-  height: 400px;
+  height: 430px;
   padding: 15px;
   padding-bottom: 10px;
   margin-bottom: 20px;
