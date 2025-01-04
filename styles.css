@@ -93,6 +93,9 @@ nav ul li.active a {
   border-radius: 10px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
   cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
 }
 
 .home-description {

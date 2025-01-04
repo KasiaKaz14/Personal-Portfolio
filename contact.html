@@ -76,7 +76,7 @@
         <h3 class="contact-form-title">
           Możesz również wysłać wiadomość bezpośrednio z mojej strony:
         </h3>
-        <form class="contact-form" id="messageForm">
+        <form class="contact-form" id="contact-form">
           <label class="contact-label" for="name"
             >Twoje imię:
             <input
@@ -111,10 +111,13 @@
         </form>
       </section>
     </section>
+
+    <!-- CDN dla nowego EmailJS SDK -->
     <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.3.0/dist/email.min.js"
     ></script>
     <script src="./contactmail.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>
