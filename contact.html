@@ -3,111 +3,133 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kontakt</title>
+    <title data-i18n="contact">Kontakt</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
-      <button type="button" class="changeThemeButton">
+      <button type="button" class="changeThemeButton" data-i18n="changeTheme">
         Zmień motyw: ciemny
       </button>
+      <section class="changeLanguageSection">
+        <select class="changeLanguage" name="language" id="language">
+          <label for="language" data-i18n="changeLanguageLabel">
+            Zmień język:</label
+          >
+          <option value="pl" data-i18n="polish">Polski</option>
+          <option value="en" data-i18n="english">English</option>
+        </select>
+      </section>
+
       <nav>
         <ul>
           <li>
             <svg class="icon-svg" width="18" height="18">
               <use href="./icons.svg#icon-home3"></use>
             </svg>
-            <a href="./index.html">O mnie</a>
+            <a data-i18n="home" href="./index.html">O mnie</a>
           </li>
           <li>
             <svg class="icon-svg" width="18" height="18">
               <use href="./icons.svg#icon-owl"></use>
             </svg>
-            <a href="./skills.html">Umiejętności</a>
+            <a href="./skills.html" data-i18n="skills">Umiejętności</a>
           </li>
           <li>
             <svg class="icon-svg" width="18" height="18">
               <use href="./icons.svg#icon-folder-open"></use>
             </svg>
-            <a href="./projects.html">Projekty</a>
+            <a href="./projects.html" data-i18n="projects">Projekty</a>
           </li>
           <li>
             <svg class="icon-svg" width="18" height="18">
               <use href="./icons.svg#icon-hobby"></use>
             </svg>
-            <a href="./interests.html">Zainteresowania</a>
+            <a href="./interests.html" data-i18n="interests">Zainteresowania</a>
           </li>
           <li class="active">
             <svg class="icon-svg" width="18" height="18">
               <use href="./icons.svg#icon-address-book"></use>
             </svg>
-            <a href="#contact">Kontakt</a>
+            <a href="#contact" data-i18n="contact">Kontakt</a>
           </li>
         </ul>
       </nav>
     </header>
     <section class="contact-section">
       <section>
-        <h2 class="contact-title">Kontakt</h2>
+        <h2 class="contact-title" data-i18n="contactTitle">Kontakt</h2>
         <ul class="contact-list">
           <li class="contact-links-icon">
             <svg width="16" height="16">
               <use href="./icons.svg#icon-phone"></use>
             </svg>
-            <a href="phoneto: +48882423855">Telefon </a>
+            <a href="phoneto: +48882423855" data-i18n="phone">Telefon</a>
           </li>
           <li>
             <svg width="16" height="16">
               <use href="./icons.svg#icon-mail3"></use>
             </svg>
-            <a href="mailto: kasiakazmierczak99@gmail.com">Mail</a>
+            <a href="mailto: kasiakazmierczak99@gmail.com" data-i18n="email"
+              >Mail</a
+            >
           </li>
           <li>
             <svg width="16" height="16">
               <use href="./icons.svg#icon-linkedin"></use>
             </svg>
-            <a href="www.linkedin.com/in/katarzyna-kazmierczak-a9b63b294"
+            <a
+              href="www.linkedin.com/in/katarzyna-kazmierczak-a9b63b294"
+              data-i18n="linkedin"
               >LinkedIn</a
             >
           </li>
         </ul>
       </section>
       <section>
-        <h3 class="contact-form-title">
+        <h3 class="contact-form-title" data-i18n="formTitle">
           Możesz również wysłać wiadomość bezpośrednio z mojej strony:
         </h3>
         <form class="contact-form" id="contact-form">
-          <label class="contact-label" for="name"
-            >Twoje imię:
-            <input
-              class="contact-input"
-              id="name"
-              type="text"
-              placeholder="Wpisz swoje imię"
-            />
-          </label>
-          <label for="email" class="contact-label"
-            >Twój Email:
-            <input
-              class="contact-input"
-              id="email"
-              type="email"
-              placeholder="Wpisz swój email"
-            />
-          </label>
-          <label class="contact-label" for="message"
-            >Wiadomość:
-            <textarea
-              id="message"
-              class="contact-message-input"
-              maxlength="300"
-              placeholder="Napisz swoją wiadomość..."
-            ></textarea>
-          </label>
+          <label class="contact-label" for="name" data-i18n="yourName"
+            >Twoje imię:</label
+          >
+          <input
+            class="contact-input"
+            id="name"
+            type="text"
+            placeholder="Wpisz swoje imię"
+            data-i18n-placeholder="yourNamePlaceholder"
+          />
+
+          <label for="email" class="contact-label" data-i18n="yourEmail"
+            >Twój Email:</label
+          >
+          <input
+            class="contact-input"
+            id="email"
+            type="email"
+            placeholder="Wpisz swój email"
+            data-i18n-placeholder="yourEmailPlaceholder"
+          />
+
+          <label class="contact-label" for="message" data-i18n="yourMessage"
+            >Wiadomość:</label
+          >
+          <textarea
+            id="message"
+            class="contact-message-input"
+            maxlength="300"
+            placeholder="Napisz swoją wiadomość..."
+            data-i18n-placeholder="yourMessagePlaceholder"
+          ></textarea>
+
           <div class="char-count" id="charCount">
             <p id="count"><span class="sign-count"></span></p>
           </div>
-          <button class="contact-button" type="submit">Wyślij</button>
+          <button class="contact-button" type="submit" data-i18n="sendMessage">
+            Wyślij
+          </button>
         </form>
       </section>
     </section>
@@ -117,8 +139,9 @@
       type="module"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.3.0/dist/email.min.js"
     ></script>
-    <script src="./contactmail.js"></script>
-    <script src="./email.js"></script>
-    <script src="./index.js"></script>
+    <script src="./js/contactmail.js"></script>
+    <script src="./js/email.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/translate.js"></script>
   </body>
 </html>
