@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
       if (translations[language] && translations[language][key]) {
-        el.textContent = translations[language][key];
+        el.innerHTML = translations[language][key];
       }
     });
 

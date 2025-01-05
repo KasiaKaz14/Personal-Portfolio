@@ -3,20 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title data-i18n="home">O mnie</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <div class="parallax">
       <header>
-        <button type="button" class="changeThemeButton">
+        <button type="button" class="changeThemeButton" data-i18n="changeTheme">
           Zmień motyw: ciemny
         </button>
         <section class="changeLanguageSection">
           <select class="changeLanguage" name="language" id="language">
-            Zmień język
-            <option value="polish">Polski</option>
-            <option value="english">English</option>
+            <label for="language" data-i18n="changeLanguageLabel">
+              Zmień język:</label
+            >
+            <option value="pl" data-i18n="polish">Polski</option>
+            <option value="en" data-i18n="english">English</option>
           </select>
         </section>
         <nav>
@@ -25,73 +27,92 @@
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-home3"></use>
               </svg>
-              <a href="#about">O mnie</a>
+              <a href="#about" data-="home">O mnie</a>
             </li>
             <li>
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-owl"></use>
               </svg>
-              <a href="./skills.html">Umiejętności</a>
+              <a href="./skills.html" data-i18n="skills">Umiejętności</a>
             </li>
             <li>
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-folder-open"></use>
               </svg>
-              <a href="./projects.html">Projekty</a>
+              <a href="./projects.html" data-i18n="projects">Projekty</a>
             </li>
             <li>
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-hobby"></use>
               </svg>
-              <a href="./interests.html">Zainteresowania</a>
+              <a href="./interests.html" data-i18n="interests"
+                >Zainteresowania</a
+              >
             </li>
             <li>
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-address-book"></use>
               </svg>
-              <a href="./contact.html">Kontakt</a>
+              <a href="./contact.html" data-i18n="contact">Kontakt</a>
             </li>
           </ul>
         </nav>
       </header>
       <section id="about">
         <div>
-          <h1 class="home-description-name">Cześć, jestem Kasia</h1>
+          <h1 class="home-description-name" data-i18n="hello">
+            Cześć, jestem Kasia
+          </h1>
           <h3 class="home-description">Fullstack Developer</h3>
           <div class="home-description">
-            <p>
+            <p data-i18n="programming">
               Wielka pasjonatka programowania od dwóch lat. Absolwentka akademii
               GoIT, gdzie nabyłam szeroki zakres umiejętności z zakresu
               Frontendu, jak i Backendu. Nabyte przeze mnie umiejętności możesz
               zobaczyć
-              <a class="home-link" href="./skills.html">tutaj</a>.
+              <a class="home-link" href="./skills.html" data-i18n="here."
+                >tutaj</a
+              >.
             </p>
 
-            <p>
+            <p data-i18n="portfolio">
               W swoim portfolio posiadam kilka projektów, zarówno tych
               indywidualnych, ale i grupowych.
-              <a class="home-link" href="./projects.html">Tu</a> znajdziesz do
-              linki do stron i kodu.
+              <a
+                class="home-link"
+                href="./projects.html"
+                data-i18n="portfolioHere"
+                >Tu</a
+              >
+              znajdziesz do linki do stron i kodu.
             </p>
-            <p>
+            <p data-i18n="anotherInterests">
               Na co dzień zajmuję się nie tylko programowaniem. Mam kilka innych
               zainteresowań, którym poświęcam wolny czas. Jeśli chcesz
               dowiedzieć się więcej o mnie to zapraszam Cię do tej
-              <a class="home-link" href="./interests.html">zakładki</a>.
+              <a class="home-link" href="./interests.html" data-i18n="tab"
+                >zakładki</a
+              >.
             </p>
-            <p>
+            <p data-i18n="areYouInterested">
               Spodobała Ci się strona? Projekty? Jesteś zainteresowany
               współpracą? Zapraszam do
-              <a class="home-link" href="./contact.html">kontaktu</a>.
+              <a
+                class="home-link"
+                href="./contact.html"
+                data-i18n="contactMessage"
+                >kontaktu</a
+              >.
             </p>
           </div>
         </div>
       </section>
-      <p class="home-description-copy">
+      <p data-i18n="allRights" class="home-description-copy">
         &copy; 2024 [Katarzyna]. Wszelkie prawa zastrzeżone.
       </p>
     </div>
 
     <script src="./js/index.js"></script>
+    <script src="./js/translate.js"></script>
   </body>
 </html>

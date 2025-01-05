@@ -2,7 +2,6 @@
   "pl": {
     "contact": "Kontakt",
     "changeTheme": "Zmień motyw: ciemny",
-    "changeTheme": "Zmień motyw: jasny",
     "changeLanguageLabel": "Zmień język:",
     "polish": "Polski",
     "english": "English",
@@ -10,6 +9,7 @@
     "skills": "Umiejętności",
     "projects": "Projekty",
     "interests": "Zainteresowania",
+    "contactTitle": "Kontakt",
     "phone": "Telefon",
     "email": "Mail",
     "linkedin": "LinkedIn",
@@ -20,12 +20,17 @@
     "yourEmailPlaceholder": "Wpisz swój email",
     "yourMessage": "Wiadomość:",
     "yourMessagePlaceholder": "Napisz swoją wiadomość...",
-    "sendMessage": "Wyślij"
+    "sendMessage": "Wyślij",
+    "hello": "Cześć, jestem Kasia",
+    "programming": "Wielka pasjonatka programowania od dwóch lat. Absolwentka akademii GoIT, gdzie nabyłam szeroki zakres umiejętności z zakresu Frontendu, jak i Backendu. Nabyte przeze mnie umiejętności możesz zobaczyć <a href='./skills.html'>tutaj</a>.",
+    "portfolio": "W swoim portfolio posiadam kilka projektów, zarówno tych indywidualnych, ale i grupowych. <a href='./projects.html'>Tu</a> znajdziesz do linki do stron i kodu.",
+    "anotherInterests": "Na co dzień zajmuję się nie tylko programowaniem. Mam kilka innych zainteresowań, którym poświęcam wolny czas. Jeśli chcesz dowiedzieć się więcej o mnie to zapraszam Cię do tej <a href='./interests.html'>zakładki</a>.",
+    "areYouInterested": "Spodobała Ci się strona? Projekty? Jesteś zainteresowany współpracą? Zapraszam do  <a href='./contact.html'>kontaktu</a>.",
+    "allRights": "&copy; 2025 [Katarzyna]. Wszelkie prawa zastrzeżone."
   },
   "en": {
     "contact": "Contact",
     "changeTheme": "Change theme: dark",
-    "changeTheme": "Change theme: light",
     "changeLanguageLabel": "Change language:",
     "polish": "Polish",
     "english": "English",
@@ -33,6 +38,7 @@
     "skills": "Skills",
     "projects": "Projects",
     "interests": "Interests",
+    "contactTitle": "Contact",
     "phone": "Phone",
     "email": "Email",
     "linkedin": "LinkedIn",
@@ -43,6 +49,14 @@
     "yourEmailPlaceholder": "Enter your email",
     "yourMessage": "Message:",
     "yourMessagePlaceholder": "Write your message...",
-    "sendMessage": "Send"
+    "sendMessage": "Send",
+    "hello": "Hello, I am Kasia",
+    "programming": "A great programming enthusiast for 2 years. Have graduated from the GOiT Academy, where I acquired a wide range of Frontend and Backend skills. You can see it <a href='./skills.html'>here</a>.",
+    "here": "here.",
+    "portfolio": "I have several projects in my portfolio, both individual and group. <a href='./projects.html'>Here</a> you will find links to pages and code.",
+    "anotherInterests": "On a daily basis, I deal not only with programming. I have several other interests that I devote my free time to. If you want to learn more about me, please visit this <a href='./interests.html'>tab</a>",
+    "tab": "tab.",
+    "areYouInterested": "Do you like my website? Projects? Are you interested in cooperation? Please, <a href='./contact.html'>contact</a> me.",
+    "allRights": "&copy; 2025 [Katarzyna]. All rights reserved."
   }
 }
