@@ -1,6 +1,6 @@
 # My Personal Website 🚀
 
-Welcome to my personal website! This project showcases my skills, interests, and portfolio in a clean and user-friendly format. It's built with **HTML**, **CSS**, and **JavaScript** and contains multiple sections to highlight my professional journey and passion projects. Currently the website is supported in Polish. In the future I will add the English language, and the site will be updated on a regular basis.
+Welcome to my personal website! This project showcases my skills, interests, and portfolio in a clean and user-friendly format. It's built with **HTML**, **CSS**, and **JavaScript** and contains multiple sections to highlight my professional journey and passion projects. Currently the website is supported in Polish and English. The site will be updated on a regular basis.
 
 ## 🌟 Features
 
@@ -21,6 +21,10 @@ Welcome to my personal website! This project showcases my skills, interests, and
 - **Dynamic Theme Switcher**: Users can choose the light or dark theme of the website.
 - **Contact Form**: Users can send me messages directly through the website.
 - **Responsive Design**: At the moment there is a desktop version, but I am going to add a version for tablet and mobile. Be patient!
+
+## 🆕 New Features
+
+- **Language Selector**: Now you can choose the language in which you want to browse the website!
 
 ## 🚀 How to Use
 
@@ -49,11 +53,10 @@ Feel free to reach out to me via [email](mailto:kasiakazmierczak99@gmail.com) or
 
 ### 💻 Future Improvements
 
-- Add more detailed descriptions to the projects section.
+- Add more projects to the projects section.
 - Integrate a blog section where I can share my thoughts on web development, coding tips, and experiences. (It's 50/50)
 - Implement an animation to improve user experience.
-- Add the English language
-- Add the Responsive Design
+- Add the Responsive Web Design
 
 ## 🙌 Contributing
 
