@@ -56,7 +56,14 @@
     "filmSuggestions": "Propozycje najnowszych filmów",
     "movies": "<a href=\"https://kasiakaz14.github.io/goit-react-hw-05-movies\">Movies</a>",
     "imgFinderJs": "Wyszukiwarka obrazów - JavaScript",
-    "imgFinderJsLink": "<a href=\"https://kasiakaz14.github.io/goit-js-hw-11\">Wyszukiwarka obrazów - JavaScript</a>"
+    "imgFinderJsLink": "<a href=\"https://kasiakaz14.github.io/goit-js-hw-11\">Wyszukiwarka obrazów - JavaScript</a>",
+    "interestInfo": "Moja pasja to nie tylko programowanie, ale również sport, książki, czy języki obce.",
+    "football": "Piłka nożna",
+    "footballDetails": "Jest to moja miłość w zasadzie od momentu, kiedy nauczyłam się chodzić. Zawsze byłam bardzo aktywnym dzieckiem, które całe dnie spędzało na dworze, uganiając się za piłką.\nJako starsza dziewczynka wielokrotnie brałam udział w zawodach sportowych, a obecnie jestem zawodniczką II-ligowego zespołu, gdzie gram jako skrzydłowa/wahadłowa.\nTrenuję dwa razy w tygodniu w klubie, a do tego 3-4 razy indywidualnie.\nTen okrągły przedmiot towarzyszy mi już jakieś 25 lat i licznik dalej bije! ;)",
+    "books": "Książki",
+    "booksDetails": "Kolejny element, bez którego nie umiem funkcjonować na co dzień. Czytam średnio przez około pół godziny dziennie. Jestem wielką fanką kryminałów, ale czytam też chętnie biografie sportowe czy książki związane z mitologią słowiańską, wliczając w to powieści. Najchętniej wybieram kryminały Katarzyny Puzyńskiej, Wojciecha Chmielarza i Remigiusza Mroza, choć bardzo lubię też serię o Jacku Reacherze autora Lee Childa. Nie mogłabym nie wspomnieć o Annie Kańtoch, która wplata w swoje książki elementy fantastyki i tajemnice z przeszłości. Jej książki czyta się jednym tchem.",
+    "foreignLanguages": "Języki obce",
+    "foreignLanguagesDetails": "To temat, który też zawsze mnie fascynował. W szkole miałam możliwość uczenia się angielskiego i rosyjskiego, którymi posługuję się kolejno na poziomach C1 i B1. Zawsze też miałam marzenie nauczyć się niemieckiego, więc staram się co i raz przyswajać nowe zdania. Mogę się pochwalić, że już trochę rozumiem :)"
   },
   "en": {
     "contact": "Contact",
@@ -117,6 +124,13 @@
     "filmSuggestions": "Suggestions for the latest movies",
     "movies": "<a href=\"https://kasiakaz14.github.io/goit-react-hw-05-movies\">Movies</a>",
     "imgFinderJs": "Image Finder - JavaScript",
-    "imgFinderJsLink": "<a href=\"https://kasiakaz14.github.io/goit-js-hw-11\">Image finder - JavaScript</a>"
+    "imgFinderJsLink": "<a href=\"https://kasiakaz14.github.io/goit-js-hw-11\">Image finder - JavaScript</a>",
+    "interestInfo": "My passion is not only programming, but also sports, books, and foreign languages.",
+    "football": "Football",
+    "footballDetails": "It has been my love basically since I learnt to walk. I was always a very active child who spent all day outside chasing a ball.\nAs an older girl, I took part in sports competitions many times, and currently I am a player in a second-league team, where I play as a winger/swinger.\nI train twice a week at the club, and also 3-4 times individually.\nThis round object has been with me for about 25 years and counting! ;)",
+    "books": "Books",
+    "booksDetails": "Another element I can't imagine my daily life without. I read for about half an hour a day on average. I'm a huge fan of crime novels, but I also enjoy reading sports biographies or books related to Slavic mythology, including novels. My favorite crime authors are Katarzyna Puzyńska, Wojciech Chmielarz, and Remigiusz Mróz, although I also really enjoy the Jack Reacher series by Lee Child.I couldn't fail to mention Anna Kańtoch, who weaves elements of fantasy and mysteries from the past into her books. Her works are truly unputdownable.",
+    "foreignLanguages": "Foreign languages",
+    "foreignLanguagesDetails": "It's a topic that has always fascinated me. In school, I had the opportunity to learn English and Russian, which I now speak at C1 and B1 levels, respectively. I've also always dreamed of learning German, so I try to pick up new phrases from time to time.I can proudly say that I already understand a bit! :)"
   }
 }
