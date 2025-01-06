@@ -3,20 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Umiejętności</title>
+    <title data-i18n="skills">Umiejętności</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <section>
       <header>
-        <button type="button" class="changeThemeButton">
+        <button type="button" class="changeThemeButton" data-i18n="changeTheme">
           Zmień motyw: ciemny
         </button>
         <section class="changeLanguageSection">
           <select class="changeLanguage" name="language" id="language">
-            Zmień język
-            <option value="polish">Polski</option>
-            <option value="english">English</option>
+            <label for="language" data-i18n="changeLanguageLabel">
+              Zmień język:</label
+            >
+            <option value="pl" data-i18n="polish">Polski</option>
+            <option value="en" data-i18n="english">English</option>
           </select>
         </section>
         <nav>
@@ -25,50 +27,56 @@
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-home3"></use>
               </svg>
-              <a href="./index.html">O mnie</a>
+              <a href="./index.html" data-i18n="home">O mnie</a>
             </li>
             <li class="active">
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-owl"></use>
               </svg>
-              <a href="#skills">Umiejętności</a>
+              <a href="#skills" data-i18n="skills">Umiejętności</a>
             </li>
             <li>
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-folder-open"></use>
               </svg>
-              <a href="./projects.html">Projekty</a>
+              <a href="./projects.html" data-i18n="projects">Projekty</a>
             </li>
             <li>
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-hobby"></use>
               </svg>
-              <a href="./interests.html">Zainteresowania</a>
+              <a href="./interests.html" data-i18n="interests"
+                >Zainteresowania</a
+              >
             </li>
             <li>
               <svg class="icon-svg" width="18" height="18">
                 <use href="./icons.svg#icon-address-book"></use>
               </svg>
-              <a href="./contact.html">Kontakt</a>
+              <a href="./contact.html" data-i18n="contact">Kontakt</a>
             </li>
           </ul>
         </nav>
       </header>
       <div>
-        <h3 class="skills-description-title">
+        <h3 class="skills-description-title" data-i18n="started">
           Od dwóch lat intersuję się programowaniem. Ukończyłam prawie roczny
           kurs programowania i posiadam certyfikat Fullstack Developera. W
           trakcie nauki zdobyłam praktyczną wiedzę z zakresu Frontendu i
           Backendu.
         </h3>
         <div class="skills-description">
-          <h3 class="skills-title">Moje umiejętności:</h3>
+          <h3 class="skills-title" data-i18n="mySKills">Moje umiejętności:</h3>
           <ul id="skills" class="skills-skills">
             <li class="skill">
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >HTML</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="html"
+              >
                 Język znaczników. Buduje szkielet strony internetowej.
               </div>
             </li>
@@ -76,7 +84,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >CSS</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="css"
+              >
                 Język stylów. Pozwala na pozycjonowanie i wygląd poszczególnych
                 elementów strony/aplikacji.
               </div>
@@ -85,7 +97,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >Javascript</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="javascript"
+              >
                 Język programowania. Pozwala na wchodzenie w interakcję z
                 poszczególnymi elementami strony.
               </div>
@@ -96,7 +112,11 @@
                 title="Kliknij, aby przeczytać definicję "
                 >React</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="react"
+              >
                 Biblioteka Javascript. Używa się go do budowy aplikacji
                 webowych.
               </div>
@@ -105,7 +125,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >Redux</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="redux"
+              >
                 Biblioteka Javascript. Służy do zarządzania stanem aplikacji.
                 Używa się jej najczęściej razem z Reactem, ale może być używana
                 z innymi bibliotekami/frameworkami.
@@ -115,7 +139,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >Node.js</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="node"
+              >
                 Środowisko uruchomieniowe Javascript. Pozwala na wykonywanie
                 kodu poza przeglądarką (na serwerze) i tworzenie aplikacji
                 serwerowych/skryptów/narzędzi.
@@ -125,7 +153,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >MongoDB</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="mongoDb"
+              >
                 Baza danych NoSQL.Cechuje się wysoką wydajnością, skalowalnością
                 i elastycznością, co pozwala na budowę nowoczesnych aplikacji
                 internetowych, mobilnych i analitycznych.
@@ -135,7 +167,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >npm</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="npm"
+              >
                 Node Package Manager. Jest to menadżer pakietów dla Node.js.
                 Pozwala na instalowanie, zarządzanie i udostępnianie paczek
                 Javascript, które mogą być używane w projektach.
@@ -145,7 +181,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >git</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="git"
+              >
                 System kontroli wersji. Umożliwia śledzenie zmian w kodzie
                 źródłowym i zarządzanie nimi. Używany jest głównie do pracy nad
                 projektami zespołowymi i zarządzania historią zmian w kodzie.
@@ -155,7 +195,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >OOP</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="oop"
+              >
                 Object-Oriented Programming. Organizuje program wokół obiektów
                 (instancji klas), co pozwala na ponowne wykorzystanie kodu, a
                 także jego rozszerzanie i utrzymywanie.
@@ -165,7 +209,11 @@
               <span class="skill-name" title="Kliknij, aby przeczytać definicję"
                 >RWD</span
               >
-              <div class="skill-description" style="display: block">
+              <div
+                class="skill-description"
+                style="display: block"
+                data-i18n="rwd"
+              >
                 Responsive Web Design. Pozwala na dopasowanie i poprawne
                 wyświetlenie strony lub plikacji na różnych urządzeniach i
                 rozdzielczościach.
@@ -176,5 +224,6 @@
       </div>
     </section>
     <script src="./js/index.js"></script>
+    <script src="./js/translate.js"></script>
   </body>
 </html>
