@@ -9,6 +9,11 @@ ul {
   --icon-color: black;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 svg {
   fill: var(--icon-color);
   overflow: visible;
