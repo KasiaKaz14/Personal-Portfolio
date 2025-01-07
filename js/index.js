@@ -1,6 +1,7 @@
 const changeTheme = document.querySelector(".changeThemeButton");
 const showDefinition = document.querySelectorAll(".skill-name");
 const scrollToTopButton = document.querySelector("#scrollToTop");
+const lists = document.querySelectorAll("ul, ol");
 
 const setTheme = (theme) => {
   if (theme === "white") {
@@ -8,6 +9,7 @@ const setTheme = (theme) => {
     document.body.style.color = "white";
     document.documentElement.style.setProperty("--icon-color", "white");
     changeTheme.style.backgroundColor = "white";
+    lists.style.listStyle = "none";
     changeTheme.style.color = "black";
     changeTheme.textContent = "Zmień motyw: jasny";
   } else {
