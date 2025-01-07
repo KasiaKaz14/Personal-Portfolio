@@ -2,6 +2,7 @@ body,
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 :root {
@@ -49,6 +50,7 @@ nav ul {
   flex-direction: column;
   padding-bottom: 15px;
   gap: 5px;
+  list-style: none;
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: row;
