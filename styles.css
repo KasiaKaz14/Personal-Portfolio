@@ -473,11 +473,14 @@ nav ul li.active a {
   align-items: center;
   padding-bottom: 30px;
   margin: 0 auto;
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 15px;
-  border: 1px solid #0fb443;
   border-radius: 5px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+  width: 460px;
+  @media screen and (min-width: 768px) {
+    width: 700px;
+  }
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-direction: column;
@@ -485,10 +488,8 @@ nav ul li.active a {
     align-items: center;
     padding-bottom: 30px;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 15px;
-    width: 700px;
-    border: 1px solid #0fb443;
     border-radius: 5px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
   }
@@ -513,7 +514,6 @@ nav ul li.active a {
   cursor: pointer;
   width: 350px;
   height: 45px;
-  border: 1px solid #0fb443;
   border-radius: 5px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
 }
@@ -536,7 +536,6 @@ nav ul li.active a {
   padding: 15px;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  border: 1px solid #0fb443;
   border-radius: 5px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
 }
