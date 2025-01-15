@@ -47,6 +47,8 @@
     "nexinoWebsite": "Strona firmy Nexino Labs",
     "website": "<a href=\"https://nexino-lab.netlify.app\">Strona</a>",
     "programmingServices": "Usługi programistyczne",
+    "programmingServicesWebsite": "<a href=\"https://kasiakaz14.github.io/Programming-services\">Website</a>",
+    "codeLinkPS": "<a href=\"https://github.com/KasiaKaz14/Programming-services\">Link to code</a>",
     "calendar": "Kalendarz",
     "calendarLink": "<a href=\"https://kasiakaz14.github.io/Calendar-scheduler\">Kalendarz</a>",
     "phonebook": "Książka telefoniczna",
@@ -63,7 +65,10 @@
     "books": "Książki",
     "booksDetails": "Kolejny element, bez którego nie umiem funkcjonować na co dzień. Czytam średnio przez około pół godziny dziennie. Jestem wielką fanką kryminałów, ale czytam też chętnie biografie sportowe czy książki związane z mitologią słowiańską, wliczając w to powieści. Najchętniej wybieram kryminały Katarzyny Puzyńskiej, Wojciecha Chmielarza i Remigiusza Mroza, choć bardzo lubię też serię o Jacku Reacherze autora Lee Childa. Nie mogłabym nie wspomnieć o Annie Kańtoch, która wplata w swoje książki elementy fantastyki i tajemnice z przeszłości. Jej książki czyta się jednym tchem.",
     "foreignLanguages": "Języki obce",
-    "foreignLanguagesDetails": "To temat, który też zawsze mnie fascynował. W szkole miałam możliwość uczenia się angielskiego i rosyjskiego, którymi posługuję się kolejno na poziomach C1 i B1. Zawsze też miałam marzenie nauczyć się niemieckiego, więc staram się co i raz przyswajać nowe zdania. Mogę się pochwalić, że już trochę rozumiem :)"
+    "foreignLanguagesDetails": "To temat, który też zawsze mnie fascynował. W szkole miałam możliwość uczenia się angielskiego i rosyjskiego, którymi posługuję się kolejno na poziomach C1 i B1. Zawsze też miałam marzenie nauczyć się niemieckiego, więc staram się co i raz przyswajać nowe zdania. Mogę się pochwalić, że już trochę rozumiem :)",
+    "takumiSakeWebsite": "Strona firmy Takumi-Sake",
+    "takumiSakeLink": "<a href=\"https://takumi-sake.netlify.app\">Strona</a>",
+    "takumiSakeCodeLink": "<a href=\"https://github.com/KasiaKaz14/sake\">Link do kodu</a>"
   },
   "en": {
     "contact": "Contact",
@@ -115,6 +120,8 @@
     "nexinoWebsite": "Nexino Labs website",
     "website": "<a href=\"https://nexino-lab.netlify.app\">Website</a>",
     "programmingServices": "Programming services",
+    "programmingServicesWebsite": "<a href=\"https://kasiakaz14.github.io/Programming-services\">Website</a>",
+    "codeLinkPS": "<a href=\"https://github.com/KasiaKaz14/Programming-services\">Link to code</a>",
     "calendar": "Calendar",
     "calendarLink": "<a href=\"https://kasiakaz14.github.io/Calendar-scheduler\">Calendar</a>",
     "phonebook": "Phonebook",
@@ -131,6 +138,9 @@
     "books": "Books",
     "booksDetails": "Another element I can't imagine my daily life without. I read for about half an hour a day on average. I'm a huge fan of crime novels, but I also enjoy reading sports biographies or books related to Slavic mythology, including novels. My favorite crime authors are Katarzyna Puzyńska, Wojciech Chmielarz, and Remigiusz Mróz, although I also really enjoy the Jack Reacher series by Lee Child.I couldn't fail to mention Anna Kańtoch, who weaves elements of fantasy and mysteries from the past into her books. Her works are truly unputdownable.",
     "foreignLanguages": "Foreign languages",
-    "foreignLanguagesDetails": "It's a topic that has always fascinated me. In school, I had the opportunity to learn English and Russian, which I now speak at C1 and B1 levels, respectively. I've also always dreamed of learning German, so I try to pick up new phrases from time to time.I can proudly say that I already understand a bit! :)"
+    "foreignLanguagesDetails": "It's a topic that has always fascinated me. In school, I had the opportunity to learn English and Russian, which I now speak at C1 and B1 levels, respectively. I've also always dreamed of learning German, so I try to pick up new phrases from time to time.I can proudly say that I already understand a bit! :)",
+    "takumiSakeWebsite": "Takumi-Sake Website",
+    "takumiSakeLink": "<a href=\"https://takumi-sake.netlify.app\">Website</a>",
+    "takumiSakeCodeLink": "<a href=\"https://github.com/KasiaKaz14/sake\">Link to code</a>"
   }
 }
