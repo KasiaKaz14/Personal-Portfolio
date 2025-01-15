@@ -86,12 +86,6 @@ nav a {
   font-weight: bold; /* Pogrubienie tekstu */
 }
 
-/* nav a:hover {
-  color: #007bff;
-  border-bottom: 2px solid #007bff;
-  border-radius: 4px;
-} */
-
 nav ul li.active .icon-svg {
   fill: #12e056; /* Kolor aktywnej ikony */
 }
@@ -220,6 +214,35 @@ nav ul li.active a {
   margin: 0 auto;
   margin-bottom: 10px;
   width: 450px;
+}
+
+.programming-section,
+.portfolio-section,
+.anotherInterests-section,
+.areYouInterested-section {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 712px;
+  text-align: justify;
+  margin-top: 125px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.programming-img,
+.portfolio-img,
+.anotherInterests-img,
+.areYouInterested-img {
+  width: 300px;
+  height: 300px;
+}
+
+.programming,
+.portfolio,
+.anotherInterests {
+  padding-top: 40px;
 }
 
 .skills-description-title {
@@ -481,19 +504,6 @@ nav ul li.active a {
 .interests-container h4:hover {
   color: #d43f3f;
 }
-
-/* Media Queries – wersja responsywna */
-/* @media (min-width: 768px) {
-  .interests-container {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 1024px) {
-  .interests-container {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-} */
 
 .contact-section {
   display: flex;
