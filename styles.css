@@ -7,6 +7,7 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -45,11 +46,14 @@ header {
   gap: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   @media screen and (min-width: 1200px) {
-    background-color: #1d1c2c;
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+    /* background-color: #1d1c2c; */
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.9);
     display: flex;
     flex-direction: column;
     margin: 15px;
+    background-color: transparent;
+    border-radius: 15px;
+    padding-top: 70px;
   }
 }
 
@@ -69,7 +73,6 @@ nav ul {
     justify-content: space-around;
     list-style: none;
     padding: 10px 0;
-    border-bottom: 2px solid #ccc;
   }
 }
 
@@ -90,19 +93,19 @@ nav a {
 } */
 
 nav ul li.active .icon-svg {
-  fill: #007bff; /* Kolor aktywnej ikony */
+  fill: #12e056; /* Kolor aktywnej ikony */
 }
 
 nav ul li.active a {
-  color: #007bff; /* Kolor tekstu aktywnej zakładki */
-  border-bottom: 2px solid #007bff; /* Ramka dolna dla aktywnej zakładki */
+  color: #12e056; /* Kolor tekstu aktywnej zakładki */
+  border-bottom: 2px solid #12e056; /* Ramka dolna dla aktywnej zakładki */
   border-radius: 4px; /* Zaokrąglenie rogów tła */
 }
 
 .scroll-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 25px;
+  right: 21px;
   display: none;
   background-color: #007bff;
   color: white;
@@ -157,6 +160,16 @@ nav ul li.active a {
   color: white;
 }
 
+.home,
+.skills,
+.interests {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: aliceblue;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.9);
+}
+
 .home-description {
   text-align: center;
   margin: 0 40px 0 40px;
@@ -174,6 +187,11 @@ nav ul li.active a {
   }
 }
 
+.home-description a {
+  text-decoration: none;
+  color: #1bcc1b;
+}
+
 .home-description-name {
   text-align: center;
   font-size: 35px;
@@ -187,7 +205,6 @@ nav ul li.active a {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: 20px;
-    width: 380px;
   }
 }
 
@@ -205,10 +222,6 @@ nav ul li.active a {
   width: 450px;
 }
 
-.home-link {
-  color: #007bff;
-}
-
 .skills-description-title {
   @media screen and (max-width: 767px) {
     text-align: justify;
@@ -218,6 +231,7 @@ nav ul li.active a {
     display: flex;
     text-align: center;
     margin-bottom: 35px;
+    padding: 15px;
   }
 }
 
@@ -306,6 +320,12 @@ nav ul li.active a {
 
 .projects-section {
   padding-bottom: 120px;
+  @media screen and (min-width: 1200px) {
+    margin: 15px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.9);
+  }
 }
 
 .projects-container {
@@ -381,6 +401,8 @@ nav ul li.active a {
     justify-content: center;
     font-size: 25px;
     margin-bottom: 50px;
+    padding-top: 23px;
+    color: aliceblue;
   }
 }
 
@@ -391,6 +413,7 @@ nav ul li.active a {
   color: #d43f3f;
   margin-bottom: 20px;
   position: relative;
+  padding-top: 15px;
 }
 
 .interests-title::after {
@@ -417,7 +440,7 @@ nav ul li.active a {
     font-size: 18px;
     margin-bottom: 15px;
     line-height: 1.6;
-    color: #444;
+    color: aliceblue;
   }
 }
 
@@ -441,17 +464,15 @@ nav ul li.active a {
   display: flex;
   flex-direction: column;
   font-size: 26px;
-  color: #444;
   margin-bottom: 10px;
   transition: color 0.3s ease;
   cursor: pointer;
 }
 
 .interests-bubble {
-  /* width: 1150px; */
-  border: 1px solid #bebcbc;
   border-radius: 15px;
-  background-color: #e1dfdf;
+  color: #333131;
+  background-color: aliceblue;
   padding: 35px;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
