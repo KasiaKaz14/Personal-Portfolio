@@ -7,309 +7,326 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <button type="button" class="changeThemeButton" data-i18n="changeTheme">
-        Zmień motyw: ciemny
-      </button>
-      <section class="changeLanguageSection">
-        <select class="changeLanguage" name="language" id="language">
-          <label for="language" data-i18n="changeLanguageLabel">
-            Zmień język:</label
-          >
-          <option value="pl" data-i18n="polish">Polski</option>
-          <option value="en" data-i18n="english">English</option>
-        </select>
+    <section class="parallax">
+      <header>
+        <button type="button" class="changeThemeButton" data-i18n="changeTheme">
+          Zmień motyw: ciemny
+        </button>
+        <section class="changeLanguageSection">
+          <select class="changeLanguage" name="language" id="language">
+            <label for="language" data-i18n="changeLanguageLabel">
+              Zmień język:</label
+            >
+            <option value="pl" data-i18n="polish">Polski</option>
+            <option value="en" data-i18n="english">English</option>
+          </select>
+        </section>
+
+        <nav>
+          <ul>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-home3"></use>
+              </svg>
+              <a href="./index.html" data-i18n="home">O mnie</a>
+            </li>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-owl"></use>
+              </svg>
+              <a href="./skills.html" data-i18n="skills">Umiejętności</a>
+            </li>
+            <li class="active">
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-folder-open"></use>
+              </svg>
+              <a href="#projects" data-i18n="projects">Projekty</a>
+            </li>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-hobby"></use>
+              </svg>
+              <a href="./interests.html" data-i18n="interests"
+                >Zainteresowania</a
+              >
+            </li>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-address-book"></use>
+              </svg>
+              <a href="./contact.html" data-i18n="contact">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="projects-section">
+        <h3 class="projects-title" data-i18n="projectIntroduction">
+          Tutaj znajduje kilka moich projektów, nad którymi pracowałam.
+          Oczywiście to nie koniec i z czasem pojawią się nowe..
+        </h3>
+        <section class="projects-container">
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4>Takumi-Sake</h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="takumiSakeWebsite">Strona firmy Takumi-Sake</h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  HTML, CSS, JavaScript, RWD, Git, Github, Netlify
+                </p>
+                <a
+                  href="https://takumi-sake.netlify.app"
+                  data-i18n="takumiSakeLink"
+                  >Strona</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/sake"
+                  data-i18n="takumiSakeCodeLink"
+                  >Link do kodu</a
+                >
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4>Nexino Labs</h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="nexinoWebsite">Strona firmy Nexino Labs</h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  HTML, CSS, Netlify
+                </p>
+                <a href="https://nexino-lab.netlify.app/" data-i18n="website"
+                  >Strona</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/nexino-lab-website"
+                  data-i18n="codeLink"
+                  >Link do kodu</a
+                >
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4>Programming services</h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="programmingServices">Usługi programistyczne</h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  HTML, CSS, Javascript
+                </p>
+                <a
+                  href="https://kasiakaz14.github.io/Programming-services/"
+                  data-i18n="programmingServicesWebsite"
+                  >Strona</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/Programming-services"
+                  data-i18n="codeLinkPS"
+                  >Link do kodu</a
+                >
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4 data-i18n="calendar">Kalendarz</h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="calendar">Kalendarz</h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  CSS modules, Javascript, React
+                </p>
+                <a
+                  href="https://kasiakaz14.github.io/Calendar-scheduler/"
+                  data-i18n="calendarLink"
+                  >Kalendarz</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/Calendar-scheduler"
+                  data-i18n="codeLink"
+                  >Link do kodu projektu
+                </a>
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4 data-i18n="phonebook">Książka telefoniczna</h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="phonebook">Książka telefoniczna</h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  CSS modules, Javascript, React
+                </p>
+                <a
+                  href="https://kasiakaz14.github.io/goit-react-hw-08-phonebook/"
+                  data-i18n="phonebookLink"
+                  >Książka telefoniczna</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/goit-react-hw-08-phonebook"
+                  data-i18n="codeLink"
+                  >Link do kodu projektu</a
+                >
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4 h4 data-i18n="imgFinder">Wyszukiwarka obrazów - React</h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="imgFinder">Wyszukiwarka obrazów - React</h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  CSS modules, Javascript, React
+                </p>
+                <a
+                  href="https://kasiakaz14.github.io/goit-react-hw-03-image-finder/"
+                  data-i18n="imgFinderLink"
+                  >Wyszukiwarka obrazów - React</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/goit-react-hw-03-image-finder"
+                  data-i18n="codeLink"
+                  >Link do kodu</a
+                >
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4>Feedback</h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4>Feedback</h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  CSS modules, Javascript, React
+                </p>
+                <a
+                  href="https://kasiakaz14.github.io/goit-react-hw-02-feedback/"
+                  >Feedback</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/goit-react-hw-02-feedback"
+                  data-i18n="codeLink"
+                  >Link do kodu</a
+                >
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4 data-i18n="filmSuggestions">
+                  Propozycje najnowszych filmów
+                </h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="filmSuggestions">
+                  Propozycje najnowszych filmów
+                </h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  CSS modules, Javascript, React
+                </p>
+                <a
+                  href="https://kasiakaz14.github.io/goit-react-hw-05-movies"
+                  data-i18n="movies"
+                  >Filmy</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/goit-react-hw-05-movies"
+                  data-i18n="codeLink"
+                  >Link do kodu</a
+                >
+              </section>
+            </section>
+          </section>
+
+          <section class="project-card">
+            <section class="project-card-inner">
+              <section class="project-card-front">
+                <h4 data-i18n="imgFinderJs">
+                  Wyszukiwarka obrazów - JavaScript
+                </h4>
+                <p data-i18n="details">Sprawdź szczegóły projektu!</p>
+              </section>
+              <section class="project-card-back">
+                <h4 data-i18n="imgFinderJs">
+                  Wyszukiwarka obrazów - JavaScript
+                </h4>
+                <p class="projects-description">
+                  <span data-i18n="technologiesUsed"
+                    >Wykorzystane technologie:</span
+                  >
+                  HTML, CSS, Javascript
+                </p>
+                <a
+                  href="https://kasiakaz14.github.io/goit-js-hw-11/"
+                  data-i18n="imgFinderJsLink"
+                  >Wyszukiwarka obrazów - Javascript</a
+                >
+                <a
+                  href="https://github.com/KasiaKaz14/goit-js-hw-11"
+                  data-i18n="codeLink"
+                  >Link do kodu</a
+                >
+              </section>
+            </section>
+          </section>
+        </section>
+        <button type="button" id="scrollToTop" class="scroll-to-top">
+          <span class="scroll-to-top-arrow">&#8679;</span>
+        </button>
       </section>
-
-      <nav>
-        <ul>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-home3"></use>
-            </svg>
-            <a href="./index.html" data-i18n="home">O mnie</a>
-          </li>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-owl"></use>
-            </svg>
-            <a href="./skills.html" data-i18n="skills">Umiejętności</a>
-          </li>
-          <li class="active">
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-folder-open"></use>
-            </svg>
-            <a href="#projects" data-i18n="projects">Projekty</a>
-          </li>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-hobby"></use>
-            </svg>
-            <a href="./interests.html" data-i18n="interests">Zainteresowania</a>
-          </li>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-address-book"></use>
-            </svg>
-            <a href="./contact.html" data-i18n="contact">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-
-    <section class="projects-section">
-      <h3 class="projects-title" data-i18n="projectIntroduction">
-        Tutaj znajduje kilka moich projektów, nad którymi pracowałam. Oczywiście
-        to nie koniec i z czasem pojawią się nowe..
-      </h3>
-      <section class="projects-container">
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4>Takumi-Sake</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="nexinoWebsite">Strona firmy Takumi-Sake</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                HTML, CSS, JavaScript, RWD, Git, Github, Netlify
-              </p>
-              <a href="https://takumi-sake.netlify.app" data-i18n="website"
-                >Strona</a
-              >
-              <a href="https://github.com/KasiaKaz14/sake" data-i18n="codeLink"
-                >Link do kodu</a
-              >
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4>Nexino Labs</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="nexinoWebsite">Strona firmy Nexino Labs</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                HTML, CSS, Netlify
-              </p>
-              <a href="https://nexino-lab.netlify.app/" data-i18n="website"
-                >Strona</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/nexino-lab-website"
-                data-i18n="codeLink"
-                >Link do kodu</a
-              >
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4>Programming services</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="programmingServices">Usługi programistyczne</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                HTML, CSS, Javascript
-              </p>
-              <a
-                href="https://kasiakaz14.github.io/Programming-services/"
-                data-i18n="website"
-                >Strona</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/Programming-services"
-                data-i18n="codeLink"
-                >Link do kodu</a
-              >
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4 data-i18n="calendar">Kalendarz</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="calendar">Kalendarz</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                CSS modules, Javascript, React
-              </p>
-              <a
-                href="https://kasiakaz14.github.io/Calendar-scheduler/"
-                data-i18n="calendarLink"
-                >Kalendarz</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/Calendar-scheduler"
-                data-i18n="codeLink"
-                >Link do kodu projektu
-              </a>
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4 data-i18n="phonebook">Książka telefoniczna</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="phonebook">Książka telefoniczna</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                CSS modules, Javascript, React
-              </p>
-              <a
-                href="https://kasiakaz14.github.io/goit-react-hw-08-phonebook/"
-                data-i18n="phonebookLink"
-                >Książka telefoniczna</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/goit-react-hw-08-phonebook"
-                data-i18n="codeLink"
-                >Link do kodu projektu</a
-              >
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4 h4 data-i18n="imgFinder">Wyszukiwarka obrazów - React</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="imgFinder">Wyszukiwarka obrazów - React</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                CSS modules, Javascript, React
-              </p>
-              <a
-                href="https://kasiakaz14.github.io/goit-react-hw-03-image-finder/"
-                data-i18n="imgFinderLink"
-                >Wyszukiwarka obrazów - React</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/goit-react-hw-03-image-finder"
-                data-i18n="codeLink"
-                >Link do kodu</a
-              >
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4>Feedback</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4>Feedback</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                CSS modules, Javascript, React
-              </p>
-              <a href="https://kasiakaz14.github.io/goit-react-hw-02-feedback/"
-                >Feedback</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/goit-react-hw-02-feedback"
-                data-i18n="codeLink"
-                >Link do kodu</a
-              >
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4 data-i18n="filmSuggestions">Propozycje najnowszych filmów</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="filmSuggestions">Propozycje najnowszych filmów</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                CSS modules, Javascript, React
-              </p>
-              <a
-                href="https://kasiakaz14.github.io/goit-react-hw-05-movies"
-                data-i18n="movies"
-                >Filmy</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/goit-react-hw-05-movies"
-                data-i18n="codeLink"
-                >Link do kodu</a
-              >
-            </section>
-          </section>
-        </section>
-
-        <section class="project-card">
-          <section class="project-card-inner">
-            <section class="project-card-front">
-              <h4 data-i18n="imgFinderJs">Wyszukiwarka obrazów - JavaScript</h4>
-              <p data-i18n="details">Sprawdź szczegóły projektu!</p>
-            </section>
-            <section class="project-card-back">
-              <h4 data-i18n="imgFinderJs">Wyszukiwarka obrazów - JavaScript</h4>
-              <p class="projects-description">
-                <span data-i18n="technologiesUsed"
-                  >Wykorzystane technologie:</span
-                >
-                HTML, CSS, Javascript
-              </p>
-              <a
-                href="https://kasiakaz14.github.io/goit-js-hw-11/"
-                data-i18n="imgFinderJsLink"
-                >Wyszukiwarka obrazów - Javascript</a
-              >
-              <a
-                href="https://github.com/KasiaKaz14/goit-js-hw-11"
-                data-i18n="codeLink"
-                >Link do kodu</a
-              >
-            </section>
-          </section>
-        </section>
-      </section>
-      <button type="button" id="scrollToTop" class="scroll-to-top">
-        <span class="scroll-to-top-arrow">&#8679;</span>
-      </button>
     </section>
     <script src="./js/index.js"></script>
     <script src="./js/translate.js"></script>

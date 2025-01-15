@@ -1,3 +1,7 @@
+:root {
+  --icon-color: black;
+}
+
 body,
 ul {
   margin: 0;
@@ -5,8 +9,10 @@ ul {
   list-style: none;
 }
 
-:root {
-  --icon-color: black;
+body {
+  background-image: url(./img/sky-bgbig.png);
+  background-position: center;
+  background-position: center;
 }
 
 ul,
@@ -23,14 +29,14 @@ svg {
   fill: white;
 }
 
-.parallax {
-  background-image: url("https://pixabay.com/pl/photos/water-bobbles-b%C4%85ble-b%C4%85belki-woda-4309678/");
+/* .parallax {
+  background-image: url(./img/sky-bgbig.png);
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 header {
   display: flex;
@@ -40,9 +46,10 @@ header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   @media screen and (min-width: 1200px) {
     background-color: #1d1c2c;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
+    margin: 15px;
   }
 }
 
@@ -137,8 +144,8 @@ nav ul li.active a {
   right: 3px;
   @media screen and (min-width: 1200px) {
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 25px;
+    right: 26px;
   }
 }
 
@@ -342,6 +349,7 @@ nav ul li.active a {
   border-radius: 10px;
   border: 1px solid #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: aliceblue;
 }
 
 .project-card-back {
@@ -493,6 +501,7 @@ nav ul li.active a {
     margin-bottom: 15px;
     border-radius: 5px;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+    background-color: aliceblue;
   }
 }
 

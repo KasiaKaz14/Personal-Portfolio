@@ -7,104 +7,106 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <header>
-      <button type="button" class="changeThemeButton" data-i18n="changeTheme">
-        Zmień motyw: ciemny
-      </button>
-      <section class="changeLanguageSection">
-        <select class="changeLanguage" name="language" id="language">
-          <label for="language" data-i18n="changeLanguageLabel">
-            Zmień język:</label
-          >
-          <option value="pl" data-i18n="polish">Polski</option>
-          <option value="en" data-i18n="english">English</option>
-        </select>
-      </section>
-      <nav>
-        <ul>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-home3"></use>
-            </svg>
-            <a href="./index.html" data-i18n="home">O mnie</a>
-          </li>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-owl"></use>
-            </svg>
-            <a href="./skills.html" data-i18n="skills">Umiejętności</a>
-          </li>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-folder-open"></use>
-            </svg>
-            <a href="./projects.html" data-i18n="projects">Projekty</a>
-          </li>
-          <li class="active">
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-hobby"></use>
-            </svg>
-            <a href="#interests" data-i18n="interests">Zainteresowania</a>
-          </li>
-          <li>
-            <svg class="icon-svg" width="18" height="18">
-              <use href="./icons.svg#icon-address-book"></use>
-            </svg>
-            <a href="./contact.html" data-i18n="contact">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <section class="parallax">
+      <header>
+        <button type="button" class="changeThemeButton" data-i18n="changeTheme">
+          Zmień motyw: ciemny
+        </button>
+        <section class="changeLanguageSection">
+          <select class="changeLanguage" name="language" id="language">
+            <label for="language" data-i18n="changeLanguageLabel">
+              Zmień język:</label
+            >
+            <option value="pl" data-i18n="polish">Polski</option>
+            <option value="en" data-i18n="english">English</option>
+          </select>
+        </section>
+        <nav>
+          <ul>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-home3"></use>
+              </svg>
+              <a href="./index.html" data-i18n="home">O mnie</a>
+            </li>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-owl"></use>
+              </svg>
+              <a href="./skills.html" data-i18n="skills">Umiejętności</a>
+            </li>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-folder-open"></use>
+              </svg>
+              <a href="./projects.html" data-i18n="projects">Projekty</a>
+            </li>
+            <li class="active">
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-hobby"></use>
+              </svg>
+              <a href="#interests" data-i18n="interests">Zainteresowania</a>
+            </li>
+            <li>
+              <svg class="icon-svg" width="18" height="18">
+                <use href="./icons.svg#icon-address-book"></use>
+              </svg>
+              <a href="./contact.html" data-i18n="contact">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-    <section>
-      <h2 class="interests-title" data-i18n="interests">Zainteresowania</h2>
-      <p class="interests-description-title" data-i18n="interestsInfo">
-        Moja pasja to nie tylko programowanie, ale również sport, książki, czy
-        języki obce.
-      </p>
-      <div class="interests-container">
-        <h4 class="interests-container-title" data-i18n="football">
-          Piłka nożna
-        </h4>
-        <p class="interests-bubble" data-i18n="footballDetails">
-          Jest to moja miłość w zasadzie od momentu, kiedy nauczyłam się
-          chodzić. Zawsze byłam bardzo aktywnym dzieckiem, które całe dnie
-          spędzało na dworze, uganiając się za piłką.
-          <br />
-          Jako starsza dziewczynka wielokrotnie brałam udział w zawodach
-          sportowych, a obecnie jestem zawodniczką II-ligowego zespołu, gdzie
-          gram jako skrzydłowa/wahadłowa.
-          <br />
-          Trenuję dwa razy w tygodniu w klubie, a do tego 3-4 razy
-          indywidualnie.
-          <br />
-          Ten okrągły przedmiot towarzyszy mi już jakieś 25 lat i licznik dalej
-          bije! ;)
+      <section>
+        <h2 class="interests-title" data-i18n="interests">Zainteresowania</h2>
+        <p class="interests-description-title" data-i18n="interestsInfo">
+          Moja pasja to nie tylko programowanie, ale również sport, książki, czy
+          języki obce.
         </p>
-        <h4 data-i18n="books">Książki</h4>
-        <p class="interests-bubble" data-i18n="booksDetails">
-          Kolejny element, bez którego nie umiem funkcjonować na co dzień.
-          Czytam średnio przez około pół godziny dziennie. Jestem wielką fanką
-          kryminałów, ale czytam też chętnie biografie sportowe czy książki
-          związane z mitologią słowiańską, wliczając w to powieści. Najchętniej
-          wybieram kryminały Katarzyny Puzyńskiej, Wojciecha Chmielarza i
-          Remigiusza Mroza, choć bardzo lubię też serię o Jacku Reacherze autora
-          Lee Childa. Nie mogłabym nie wspomnieć o Annie Kańtoch, która wplata w
-          swoje książki elementy fantastyki i tajemnice z przeszłości. Jej
-          książki czyta się jednym tchem.
-        </p>
-        <h4 data-i18n="foreignLanguages">Języki obce</h4>
-        <p class="interests-bubble" data-i18n="foreignLanguagesDetails">
-          To temat, który też zawsze mnie fascynował. W szkole miałam możliwość
-          uczenia się angielskiego i rosyjskiego, którymi posługuję się kolejno
-          na poziomach C1 i B1. Zawsze też miałam marzenie nauczyć się
-          niemieckiego, więc staram się co i raz przyswajać nowe zdania. Mogę
-          się pochwalić, że już trochę rozumiem :)
-        </p>
-      </div>
-      <button type="button" id="scrollToTop" class="scroll-to-top">
-        <span class="scroll-to-top-arrow">&#8679;</span>
-      </button>
+        <div class="interests-container">
+          <h4 class="interests-container-title" data-i18n="football">
+            Piłka nożna
+          </h4>
+          <p class="interests-bubble" data-i18n="footballDetails">
+            Jest to moja miłość w zasadzie od momentu, kiedy nauczyłam się
+            chodzić. Zawsze byłam bardzo aktywnym dzieckiem, które całe dnie
+            spędzało na dworze, uganiając się za piłką.
+            <br />
+            Jako starsza dziewczynka wielokrotnie brałam udział w zawodach
+            sportowych, a obecnie jestem zawodniczką II-ligowego zespołu, gdzie
+            gram jako skrzydłowa/wahadłowa.
+            <br />
+            Trenuję dwa razy w tygodniu w klubie, a do tego 3-4 razy
+            indywidualnie.
+            <br />
+            Ten okrągły przedmiot towarzyszy mi już jakieś 25 lat i licznik
+            dalej bije! ;)
+          </p>
+          <h4 data-i18n="books">Książki</h4>
+          <p class="interests-bubble" data-i18n="booksDetails">
+            Kolejny element, bez którego nie umiem funkcjonować na co dzień.
+            Czytam średnio przez około pół godziny dziennie. Jestem wielką fanką
+            kryminałów, ale czytam też chętnie biografie sportowe czy książki
+            związane z mitologią słowiańską, wliczając w to powieści.
+            Najchętniej wybieram kryminały Katarzyny Puzyńskiej, Wojciecha
+            Chmielarza i Remigiusza Mroza, choć bardzo lubię też serię o Jacku
+            Reacherze autora Lee Childa. Nie mogłabym nie wspomnieć o Annie
+            Kańtoch, która wplata w swoje książki elementy fantastyki i
+            tajemnice z przeszłości. Jej książki czyta się jednym tchem.
+          </p>
+          <h4 data-i18n="foreignLanguages">Języki obce</h4>
+          <p class="interests-bubble" data-i18n="foreignLanguagesDetails">
+            To temat, który też zawsze mnie fascynował. W szkole miałam
+            możliwość uczenia się angielskiego i rosyjskiego, którymi posługuję
+            się kolejno na poziomach C1 i B1. Zawsze też miałam marzenie nauczyć
+            się niemieckiego, więc staram się co i raz przyswajać nowe zdania.
+            Mogę się pochwalić, że już trochę rozumiem :)
+          </p>
+        </div>
+        <button type="button" id="scrollToTop" class="scroll-to-top">
+          <span class="scroll-to-top-arrow">&#8679;</span>
+        </button>
+      </section>
     </section>
     <script src="./js/index.js"></script>
     <script src="./js/translate.js"></script>
